@@ -1,10 +1,11 @@
 import React from 'react';
+import HomeBanner from '../components/home/HomeBanner';
 import MainLayout from '../layouts/MainLayout';
 
 const MainPage = () => {
     return (
         <MainLayout>
-            <h1>Home Page</h1>
+            <HomeBanner />
         </MainLayout>
     );
 };
