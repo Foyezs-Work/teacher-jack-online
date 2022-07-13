@@ -1,14 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import HeaderTop from './HeaderTop';
 import { Link } from "react-router-dom";
 
 const Header = () => {
+    const [toggleMenu, setToggleMenu] = useState(false);
+    const [isFixed, setIsFixed] = useState(false);
+
+    const scrollMenu = () => {
+        if (window.scrollY >= 90) {
+            setIsFixed(true)
+        } else {
+            setIsFixed(false)
+        }
+    }
+
+    window.addEventListener("scroll", scrollMenu);
+
     return (
         <React.Fragment>
             <HeaderTop />
-            <nav id='navigation'>
+            <nav id='navigation'
+                className={isFixed === true ? "navbar_fixed" : "navbar"}
+            >
                 <div className="container-fluid">
-                    <div className="d-flex justify-content-between align-items-center">
+                    <div className="d-flex justify-content-between align-items-center w-100">
                         <div className="header_logo">
                             <Link to="/index">
                                 Teacher Jack
