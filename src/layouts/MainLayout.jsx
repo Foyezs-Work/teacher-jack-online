@@ -9,17 +9,17 @@ import Header from '../components/master/header/Header';
  * @returns MainLayout
  */
 
-const MainLayout = ({ children, title = null, isLoading = false, loadingMessage = "content" }) => {
+const MainLayout = ({ children, title = null }) => {
 
-  document.title = (title !== null && title !== undefined) ? `${title} || Neurosurgeon Dr. Atique` : `Neurosurgeon Dr. Atique`;
+  document.title = (title !== null && title !== undefined) ? `${title} || Teacher Jack Online` : `Teacher Jack Online`;
 
   return (
     <React.Fragment>
-        <Header />
-        {
-          children
-        }
-        <Footer />
+      <Header />
+      {
+        children
+      }
+      <Footer />
     </React.Fragment>
   );
 };

@@ -1,0 +1,56 @@
+:root {
+  /* color family / variale  */
+  --color-light-salmon: #ff6b61;
+  --color-white: #ffffff;
+  --color-dark: #0f2e33;
+  --color-light-white: #f5f2f0;
+  --color-wave-crest: #dce8ea;
+  --color-moscow-midnight: #214752;
+
+  /* font family / variale  */
+  --logo-font: pp-sans-big-regular, Helvetica Neue, Arial, sans-serif;
+}
+
+/*====================================================
+             Normailize CSS
+=====================================================*/
+html,
+body {
+  background-color: var(--color-white);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-dark);
+    transition: 0.5s ease;
+}
+a:hover{
+    color: var(--color-dark);
+    opacity: 0.9;
+}
+/*====================================================
+                Nav Section Start
+=====================================================*/
+#header-top{
+    background: var(--color-wave-crest);
+    padding: 0.5rem;
+}
+#header-top img{
+    width: 20px;
+    margin-right: 10px;
+}
+#header-top a{
+    margin: 0.5rem;
+    display: inline-block;
+}
+#header-top span{
+    display: inline-block;
+}
+/*====================================================
+                Nav Section Close
+=====================================================*/
