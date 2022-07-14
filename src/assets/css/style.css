@@ -12,12 +12,14 @@ html,
 body {
   background-color: var(--color-white);
   color: var(--color-dark);
+  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   font-size: 16px;
   scroll-behavior: smooth;
   position: relative;
+  font-family: Red Hat Text,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
 a {
@@ -58,18 +60,25 @@ ul li {
 .content_details {
   font-size: 1.2rem;
 }
+
+.title{
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 700;
+}
 /*=========================== Normailize CSS ==============================*/
 
 /*======================== Nav Section Start ==============================*/
 #header-top {
   background: var(--color-wave-crest);
-  padding: 0.5rem;
 }
 #header-top img {
-  width: 20px;
+  width: 15px;
   margin-right: 10px;
 }
 #header-top a {
+  font-size: 0.8rem;
   margin: 0.5rem;
   display: inline-block;
 }
@@ -78,7 +87,6 @@ ul li {
 }
 
 #navigation {
-  padding: 0.8rem;
   width: 100%;
 }
 .navbar {
@@ -99,6 +107,7 @@ ul li {
   font-size: 2rem;
   font-weight: 800;
   margin-left: 1rem;
+  color: var(--color-moscow-midnight);
 }
 
 .header_menu {
