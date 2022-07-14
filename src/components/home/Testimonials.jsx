@@ -48,7 +48,7 @@ const Testimonials = () => {
                     <Slider {...settings}>
                         {
                             testimonialsData.length > 0 && testimonialsData.map((item, index) => (
-                                <div className=''>
+                                <div className='' key={index + 1}>
                                     <div className="card shadow-sm m-2">
                                         <div className="testimonial_card_header">
                                             <img src={item.img} alt={item.author} />

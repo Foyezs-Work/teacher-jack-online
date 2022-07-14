@@ -13,7 +13,7 @@ const CourseProcessing = () => {
                                 <div className="row align-items-center">
                                     <div className="col-3">
                                         <div className="course_card_left">
-                                            <i class="fa-solid fa-envelopes-bulk"></i>
+                                            <i className="fa-solid fa-envelopes-bulk"></i>
                                         </div>
                                     </div>
                                     <div className="col-9">
@@ -31,7 +31,7 @@ const CourseProcessing = () => {
                                 <div className="row align-items-center">
                                     <div className="col-3">
                                         <div className="course_card_left">
-                                            <i class="fa-solid fa-clock"></i>
+                                            <i className="fa-solid fa-clock"></i>
                                         </div>
                                     </div>
                                     <div className="col-9">
@@ -49,7 +49,7 @@ const CourseProcessing = () => {
                                 <div className="row align-items-center">
                                     <div className="col-3">
                                         <div className="course_card_left">
-                                            <i class="fa-solid fa-money-check"></i>
+                                            <i className="fa-solid fa-money-check"></i>
                                         </div>
                                     </div>
                                     <div className="col-9">
@@ -67,7 +67,7 @@ const CourseProcessing = () => {
                                 <div className="row align-items-center">
                                     <div className="col-3">
                                         <div className="course_card_left">
-                                            <i class="fa-solid fa-person-chalkboard"></i>
+                                            <i className="fa-solid fa-person-chalkboard"></i>
                                         </div>
                                     </div>
                                     <div className="col-9">

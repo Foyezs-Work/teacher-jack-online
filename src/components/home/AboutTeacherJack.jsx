@@ -24,7 +24,7 @@ const AboutTeacherJack = () => {
                             <div className="row justify-content-center">
                                 {
                                     classData.length > 0 && classData.map((item, index) => (
-                                        <div className='col-md-6 mb-4'>
+                                        <div className='col-md-6 mb-4' key={index + 1}>
                                             <div className="shadow-sm">
                                                 <a href={item.videoLink} target="_blank" rel="noopener noreferrer">
                                                     <img src={item.thumbnail} alt={item.title} className="img-fluid" style={{ width: "100%" }} />

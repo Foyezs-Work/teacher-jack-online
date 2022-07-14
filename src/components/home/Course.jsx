@@ -13,19 +13,19 @@ const Course = () => {
                                 <div className="card-body">
                                     <ul className='course_list'>
                                         <li>
-                                            <i class="fa-solid fa-bookmark"></i>
+                                            <i className="fa-solid fa-bookmark"></i>
                                             <span className="ms-2"> English Communication Development for Kids</span>
                                         </li>
                                         <li>
-                                            <i class="fa-solid fa-bookmark"></i>
+                                            <i className="fa-solid fa-bookmark"></i>
                                             <span className="ms-2">   English Communication Development for Adults </span>
                                         </li>
                                         <li>
-                                            <i class="fa-solid fa-bookmark"></i>
+                                            <i className="fa-solid fa-bookmark"></i>
                                             <span className="ms-2"> Business English Certificate (BEC) Preparation </span>
                                         </li>
                                         <li>
-                                            <i class="fa-solid fa-bookmark"></i>
+                                            <i className="fa-solid fa-bookmark"></i>
                                             <span className="ms-2">  IELTS Preparation </span>
                                         </li>
                                     </ul>
