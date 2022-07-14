@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 :root {
   --color-light-salmon: #ff6b61;
   --color-white: #ffffff;
@@ -151,6 +154,8 @@ ul li {
   left: -15px;
 }
 /*============================== Home Section Close =============================*/
+
+/*=============================== Course Processing Section Start ========================*/
 .content_inner_box {
   margin-top: 2rem;
   transition: 0.5s ease all;
@@ -178,12 +183,36 @@ ul li {
 }
 .course_card_right .course_card_title {
   text-transform: uppercase;
-  font-size: 1.5rem;
-  font-weight: 800;
+  font-size: 1.3rem;
+  font-family: inherit;
+  font-weight: 700;
 }
-/*=============================== Course Processing Section Start ========================*/
-
 /*=============================== Course Processing Section Close ========================*/
+/*=============================== Testimonial Start ========================*/
+.testimonial_section{
+  background: var(--color-wave-crest)
+}
+.testimonial_card_header {
+  background-color: var(--color-light-white);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.testimonial_card_header img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.testimonial_details{
+  padding: 1rem;
+}
+.testimonial_details p{
+  text-align: justify;
+}
+/*=============================== Testimonial Close ========================*/
 
 /*=========================== Footer Section Start ==========================*/
 #footer_section {
