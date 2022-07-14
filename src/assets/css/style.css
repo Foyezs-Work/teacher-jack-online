@@ -108,6 +108,9 @@ ul li {
   font-weight: 800;
   margin-left: 1rem;
   color: var(--color-moscow-midnight);
+  font-family: Red Hat Text, Source Sans Pro, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .header_menu {
@@ -185,7 +188,8 @@ ul li {
 /*=========================== Footer Section Start ==========================*/
 #footer_section {
   background: var(--color-moscow-midnight);
-  padding: 3rem 0.5rem;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
   color: var(--color-white);
 }
 #footer_section a {
@@ -200,5 +204,9 @@ ul li {
   display: block;
   margin-top: 1rem;
 }
-
+.footer_copyright {
+  font-size: 0.9rem;
+  color: var(--color-light-white);
+  margin-top: 1rem;
+}
 /*=============================== Footer Section Close ===========================*/

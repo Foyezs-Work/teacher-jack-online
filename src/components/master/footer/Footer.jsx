@@ -65,6 +65,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <p className="footer_copyright text-center">
+                    &copy; {new Date().getFullYear()} TeacherJack.Online | All Rights Reserved
+                </p>
             </div>
         </footer>
     );
