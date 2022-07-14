@@ -1,19 +1,13 @@
 :root {
-  /* color family / variale  */
   --color-light-salmon: #ff6b61;
   --color-white: #ffffff;
   --color-dark: #0f2e33;
   --color-light-white: #f5f2f0;
   --color-wave-crest: #dce8ea;
   --color-moscow-midnight: #214752;
-
-  /* font family / variale  */
-  --logo-font: pp-sans-big-regular, Helvetica Neue, Arial, sans-serif;
 }
 
-/*====================================================
-             Normailize CSS
-=====================================================*/
+/*=============================  Normailize CSS ===========================*/
 html,
 body {
   background-color: var(--color-white);
@@ -55,22 +49,18 @@ ul li {
 }
 
 .content_title {
-  /* font-family: Moranga-regular, Georgia, Cambria, Times New Roman, Times, serif; */
   text-transform: capitalize;
   font-weight: 600;
   font-size: 3rem;
   line-height: 1.3;
 }
+
 .content_details {
   font-size: 1.2rem;
 }
-/*====================================================
-             Normailize CSS
-=====================================================*/
+/*=========================== Normailize CSS ==============================*/
 
-/*====================================================
-                Nav Section Start
-=====================================================*/
+/*======================== Nav Section Start ==============================*/
 #header-top {
   background: var(--color-wave-crest);
   padding: 0.5rem;
@@ -106,27 +96,24 @@ ul li {
   transition: 0.5s ease;
 }
 .header_logo {
-  /* font-family: pp-sans-big-regular, Helvetica Neue, Arial, sans-serif; */
   font-size: 2rem;
   font-weight: 800;
   margin-left: 1rem;
 }
+
 .header_menu {
   margin-right: 1rem;
 }
+
 .header_menu ul li {
   display: inline-block;
   margin: 0.6rem;
   font-size: 1.2rem;
   font-weight: 600;
 }
-/*====================================================
-                Nav Section Close
-=====================================================*/
+/*=========================  Nav Section Close ========================*/
 
-/*====================================================
-               Home Section Start
-=====================================================*/
+/*=============================== Home Section Start ========================*/
 .content_inner {
   position: relative;
 }
@@ -137,7 +124,8 @@ ul li {
   border-radius: 5px;
 }
 .content_inner_border {
-  border: 4px solid var(--color-moscow-midnight);
+  border: 5px solid;
+  border-image: linear-gradient(45deg, rgba(33, 71, 82, 1), rgba(255, 107, 97, 1)) 1;
   height: 275px;
   width: 100%;
   border-radius: 5px;
@@ -145,13 +133,9 @@ ul li {
   top: -15px;
   left: -15px;
 }
-/*====================================================
-               Home Section Close
-=====================================================*/
+/*============================== Home Section Close =============================*/
 
-/*====================================================
-               Footer Section Start
-=====================================================*/
+/*=========================== Footer Section Start ==========================*/
 #footer_section {
   background: var(--color-moscow-midnight);
   padding: 3rem 0.5rem;
@@ -170,6 +154,4 @@ ul li {
   margin-top: 1rem;
 }
 
-/*====================================================
-               Footer Section Close
-=====================================================*/
+/*=============================== Footer Section Close ===========================*/

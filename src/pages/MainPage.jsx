@@ -6,9 +6,7 @@ const MainPage = () => {
     return (
         <MainLayout>
             <HomeBanner />
-            <HomeBanner />
-            <HomeBanner />
-            <HomeBanner />
+          
         </MainLayout>
     );
 };
