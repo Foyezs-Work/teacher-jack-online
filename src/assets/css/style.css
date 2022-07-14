@@ -19,7 +19,7 @@ body {
   font-size: 16px;
   scroll-behavior: smooth;
   position: relative;
-  font-family: Red Hat Text,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  /* font-family: Red Hat Text,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
 }
 
 a {
@@ -61,7 +61,7 @@ ul li {
   font-size: 1.2rem;
 }
 
-.title{
+.title {
   font-size: 2rem;
   text-transform: capitalize;
   text-align: center;
@@ -134,7 +134,12 @@ ul li {
 }
 .content_inner_border {
   border: 5px solid;
-  border-image: linear-gradient(45deg, rgba(33, 71, 82, 1), rgba(255, 107, 97, 1)) 1;
+  border-image: linear-gradient(
+      45deg,
+      rgba(33, 71, 82, 1),
+      rgba(255, 107, 97, 1)
+    )
+    1;
   height: 275px;
   width: 100%;
   border-radius: 5px;
@@ -143,6 +148,39 @@ ul li {
   left: -15px;
 }
 /*============================== Home Section Close =============================*/
+.content_inner_box {
+  margin-top: 2rem;
+  transition: 0.5s ease all;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.content_inner_box:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.course_card_left {
+  background-color: var(--color-wave-crest);
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course_card_left i {
+  font-size: 3rem;
+}
+.course_card_right {
+  margin-left: 1rem;
+}
+.course_card_right .course_card_title {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+/*=============================== Course Processing Section Start ========================*/
+
+/*=============================== Course Processing Section Close ========================*/
 
 /*=========================== Footer Section Start ==========================*/
 #footer_section {
