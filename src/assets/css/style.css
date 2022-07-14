@@ -61,7 +61,8 @@ ul li {
 }
 
 .content_details {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  opacity: 0.9;
 }
 
 .title {
@@ -189,8 +190,8 @@ ul li {
 }
 /*=============================== Course Processing Section Close ========================*/
 /*=============================== Testimonial Start ========================*/
-.testimonial_section{
-  background: var(--color-wave-crest)
+.testimonial_section {
+  background: var(--color-wave-crest);
 }
 .testimonial_card_header {
   background-color: var(--color-light-white);
@@ -206,13 +207,41 @@ ul li {
   margin-right: 1rem;
 }
 
-.testimonial_details{
+.testimonial_details {
   padding: 1rem;
 }
-.testimonial_details p{
+.testimonial_details p {
   text-align: justify;
 }
 /*=============================== Testimonial Close ========================*/
+/*=============================== Course Section Start ========================*/
+.coruse_section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url(../images/common/services-bg.jpg) fixed center center;
+  background-size: cover;
+}
+
+.coruse_section .title {
+  color: var(--color-white) !important;
+}
+.coruse_section .card {
+  border: 0 !important;
+}
+.custom_card_header {
+  background: var(--color-moscow-midnight);
+  width: 100%;
+  height: 25px;
+  margin: 0;
+  border: 0;
+}
+
+.course_list li{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+/*=============================== Course Section Close ========================*/
 
 /*=========================== Footer Section Start ==========================*/
 #footer_section {
