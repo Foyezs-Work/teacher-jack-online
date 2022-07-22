@@ -355,6 +355,101 @@ ul li {
   background: rgb(255, 255, 255);
   border-radius: 50%;
 }
+
+.course-information-component {
+  background-color: #f5f7ff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.course-information-component .course-information-heading-div {
+  border-radius: 11px;
+  background-color: #fff;
+  background-color: #ffffff;
+  max-width: 564px;
+  width: 100%;
+  box-shadow: 0 5.64912px 14.1228px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+}
+
+.course-information-component .course-information-heading-div div {
+  cursor: pointer;
+  padding-top: 20px;
+  box-sizing: border-box;
+  color: #6c6c6c;
+  width: 38%;
+  margin: 0 5%;
+  font-family: Hind Siliguri;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  position: relative;
+}
+
+.course-information-component .course-information-heading-div div svg {
+  font-size: 40px;
+}
+
+.svg-inline--fa.fa-w-18 {
+  width: 1.125em;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+
+.course-information-component .course-information-title:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 8px;
+  border-radius: 10px;
+  background-color: #ff136f;
+  bottom: 0;
+  position: absolute;
+}
+
+.course-information-component .course-information-title {
+  color: #ff136f!important;
+}
+.course-information-component .course-information-heading-div h5 {
+  margin: 18px 0;
+}
+
+.course-information-component h5 {
+  font-size: 17px;
+}
+
+.course-information-component .course-information-heading-div div svg {
+  font-size: 40px;
+}
+.course-information-component .card {
+  border: 0;
+}
+
+.course-learning-card {
+  background-color: #fff;
+  color: #383838;
+}
+
+.course-information-card, .course-learning-card {
+  box-shadow: 0 30px 80px 0 rgb(55 84 170 / 10%);
+  border-radius: 16px;
+}
+
+.course-information-component p {
+  font-size: 14px;
+}
+
+.course-information-component .course-objective-component .course-information-card {
+  background-color: #fff;
+}
+
+.course-objective-component .objective-image {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 15px;
+}
 /*=============================== Package Info Close ========================*/
 
 /*=========================== Footer Section Start ==========================*/
