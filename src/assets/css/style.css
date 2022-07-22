@@ -443,12 +443,31 @@ ul li {
 
 .course-information-component .course-objective-component .course-information-card {
   background-color: #fff;
+  min-height: 300px;
 }
 
 .course-objective-component .objective-image {
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
   margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+span.react-read-more-read-less.react-read-more-read-less-more, span.react-read-more-read-less.react-read-more-read-less-less {
+  background: var(--color-light-salmon);
+  color: var(--color-white);
+  font-size: 12px;
+  padding: 3px 5px;
+  display: block;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 5.64912px 14.1228px rgb(0 0 0 / 10%);
+  text-align: center;
+  width: 100px;
+  position: relative;
+  left: 25%;
+  bottom: 0;
+
 }
 /*=============================== Package Info Close ========================*/
 
