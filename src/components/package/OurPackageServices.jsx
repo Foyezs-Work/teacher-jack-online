@@ -137,21 +137,23 @@ const OurPackageServices = () => {
                                 {
                                     courseSpecialtiesData.length > 0 && courseSpecialtiesData.map((item, index) => (
                                         <div className="col-md-6 col-lg-3 d-flex align-items-start" key={index + 1}>
-                                            <div className="card w-100 course-information-card mt-md-3 mb-md-3">
+                                            <div className="card w-100 course-information-card mt-md-3 mb-md-3 mt-3">
                                                 <div className="card-body d-flex flex-column align-items-center  align-items-lg-start    mb-0 px-3">
                                                     <div classNameName='text-center'>
                                                         <img className="objective-image img-thumbnail" src={item.img} alt={item.title} />
                                                     </div>
                                                     <div className="mt-4  text-center text-lg-start mt-lg-0" style={{ flex: "1 1 0%" }}>
                                                         <h5>{item.title}:</h5>
-                                                        <ReactReadMoreReadLess
-                                                            charLimit={80}
-                                                            readMoreText={"Read more ▼"}
-                                                            readLessText={"Read less ▲"}
-                                                        >
-                                                            {item.details}
-                                                        </ReactReadMoreReadLess>
-
+                                                        <div className="d-none d-sm-block">
+                                                            <ReactReadMoreReadLess
+                                                                charLimit={80}
+                                                                readMoreText={"Read more ▼"}
+                                                                readLessText={"Read less ▲"}
+                                                            >
+                                                                {item.details}
+                                                            </ReactReadMoreReadLess>
+                                                        </div>
+                                                        <p className='d-block d-sm-none'>{item.details}</p>
                                                     </div>
                                                 </div>
                                             </div>
