@@ -4,7 +4,7 @@ import { packageData } from '../../assets/datas/packInfo';
 
 const PackageBanner = () => {
     return (
-        <section className='pack_banner_container section_padding'>
+        <section className='pack_banner_container section_padding_extra'>
           
             <div className="container">
                 <Carousel fade>
