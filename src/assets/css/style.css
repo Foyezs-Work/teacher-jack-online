@@ -56,7 +56,7 @@ ul li {
 .content_title {
   text-transform: capitalize;
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.3;
 }
 
@@ -236,13 +236,33 @@ ul li {
   border: 0;
 }
 
-.course_list li{
+.course_list li {
   font-size: 1.2rem;
   font-weight: 600;
   margin: 10px 0px;
   cursor: pointer;
 }
 /*=============================== Course Section Close ========================*/
+/*=============================== Package Info Start ========================*/
+.pack_banner_container {
+  background: linear-gradient(107.07deg, #684efb -6.64%, #5a00dd 89.11%);
+  background: linear-gradient(107.07deg, #684efb -6.64%, #5a00dd 89.11%);
+  position: relative;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.pack_banner_carousel_inner {
+  position: relative !important;
+  left: 0;
+  right: 0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  display: none;
+}
+/*=============================== Package Info Close ========================*/
 
 /*=========================== Footer Section Start ==========================*/
 #footer_section {
