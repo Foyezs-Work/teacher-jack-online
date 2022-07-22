@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { courseProcessingData } from '../../assets/datas/courseProcessingData';
+import ModalVideo from 'react-modal-video'
 
 const CourseModule = () => {
+
+    const [isOpen, setOpen] = useState(false)
     return (
         <div className="course-criteria-section mb-5" style={{}}>
             <div className="container">
@@ -12,7 +15,7 @@ const CourseModule = () => {
                             <div className="preview text-center">
                                 <img className="img-fluid w-100 lazy-image dark-theme-enroll-img" src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1654421926132.png" alt="Complete Web Development Course With Jhankar Mahbub" style={{ paddingTop: '0px' }} />
                                 <div className="play-icon">
-                                    <div title role="button" aria-label="animation" tabIndex={0} style={{ width: '100%', height: '100%', overflow: 'hidden', margin: '0px auto', outline: 'none' }}>
+                                    <div title onClick={()=> setOpen(true)} role="button" aria-label="animation" tabIndex={0} style={{ width: '100%', height: '100%', overflow: 'hidden', margin: '0px auto', outline: 'none' }}>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 92" width={92} height={92} preserveAspectRatio="xMidYMid slice" style={{ width: '100%', height: '100%', transform: 'translate3d(0px, 0px, 0px)' }}>
                                             <defs>
                                                 <clipPath id="__lottie_element_2">
@@ -71,6 +74,8 @@ const CourseModule = () => {
                     </div>
                 </div>
             </div>
+
+            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
         </div>
     );
 };

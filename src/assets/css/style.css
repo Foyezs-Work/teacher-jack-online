@@ -593,6 +593,129 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   vertical-align: -0.125em;
 }
 /*=============================== Package Info Close ========================*/
+/*=============================== FAQ Start ========================*/
+.frequently-asked-component .frequently-asked-main {
+  background-image: linear-gradient(180deg,#684efb,#5a00dd);
+}
+
+.frequently-asked-component .shadow {
+  box-shadow: 0 10px 15px 0 rgba(55,84,170,.1019607843)!important;
+}
+
+.frequently-asked-list-component .MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+  box-shadow: none;
+  box-shadow: 0 0 80px rgb(0 0 0 / 16%);
+}
+
+.frequently-asked-component .MuiAccordionSummary-root {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  background-color: rgba(38,18,147,.0784313725);
+}
+
+.frequently-asked-list-component .MuiButtonBase-root {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.MuiAccordionSummary-content {
+  margin: 12px 0;
+  display: flex;
+  flex-grow: 1;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.frequently-asked-component .milestone-title {
+  font-size: 19px;
+}
+
+.frequently-asked-component .MuiAccordionSummary-expandIcon {
+  margin-right: 0;
+}
+
+.frequently-asked-list-component .MuiIconButton-edgeEnd {
+  margin-top: 0;
+}
+
+.frequently-asked-component .frequently-asked-list-component .MuiIconButton-label {
+  font-size: 28px;
+}
+
+
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.MuiAccordionSummary-root {
+  display: flex;
+  padding: 0px 16px;
+  min-height: 48px;
+  transition: min-height 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.MuiAccordionSummary-root.Mui-expanded {
+  min-height: 64px;
+}
+
+.custom-accordion-component .MuiAccordionSummary-root.Mui-expanded {
+    height: 70px!important;
+    min-width: unset!important;
+    margin-bottom: 20px!important;
+}
+
+.frequently-asked-component .MuiAccordionSummary-content.Mui-expanded {
+  margin-bottom: 5px!important;
+}
+
+.MuiCollapse-wrapper {
+  display: flex;
+}
+.MuiCollapse-wrapperInner {
+  width: 100%;
+}
+.frequently-asked-component .MuiAccordionDetails-root {
+  padding-left: 45px;
+}
+
+.lazy-image {
+  width: 100%!important;
+  height: unset!important;
+  position: unset!important;
+  object-fit: unset!important;
+  top: unset!important;
+  left: unset!important;
+}
+/*=============================== FAQ Close ========================*/
 
 /*=========================== Footer Section Start ==========================*/
 #footer_section {

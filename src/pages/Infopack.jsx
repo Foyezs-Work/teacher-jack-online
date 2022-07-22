@@ -1,5 +1,6 @@
 import React from 'react';
 import CourseModule from '../components/package/CourseModule';
+import FAQ from '../components/package/FAQ';
 import NextBatch from '../components/package/NextBatch';
 import OurPackageServices from '../components/package/OurPackageServices';
 import PackageBanner from '../components/package/PackageBanner';
@@ -12,6 +13,7 @@ const Infopack = () => {
             <NextBatch/>
             <CourseModule/>
             <OurPackageServices/>
+            <FAQ/>
         </MainLayout>
     );
 };
