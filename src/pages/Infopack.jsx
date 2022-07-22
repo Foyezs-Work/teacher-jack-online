@@ -1,4 +1,5 @@
 import React from 'react';
+import CourseModule from '../components/package/CourseModule';
 import NextBatch from '../components/package/NextBatch';
 import OurPackageServices from '../components/package/OurPackageServices';
 import PackageBanner from '../components/package/PackageBanner';
@@ -9,6 +10,7 @@ const Infopack = () => {
         <MainLayout title="Package">
             <PackageBanner />
             <NextBatch/>
+            <CourseModule/>
             <OurPackageServices/>
         </MainLayout>
     );
