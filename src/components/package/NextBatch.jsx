@@ -21,8 +21,8 @@ const NextBatch = () => {
                             <h5><i class="fas fa-tv four"></i>ক্লাস শুরু: <strong>ডিসেম্বর ৩০, ২০২২ (শুক্রবার )</strong></h5>
                         </div>
                     </div>
-                    <div class="notice-dark-theme shadow d-lg-flex align-items-center text-center justify-content-lg-between pb-4 pb-lg-1 p-3 text-white rounded">
-                        <h5 class="m-0 p-3 p-lg-0 pl-lg-4 text-center text-white">তুমি সপ্তম ব্যাচে এনরোল করতে আগ্রহি হলে, ওয়েবসাইটে রেজিস্ট্রেশন করে রাখো </h5>
+                    <div class="notice-dark-theme shadow d-lg-flex align-items-center text-center justify-content-lg-between p-3 text-white rounded">
+                        <h5 class="text-center text-white">তুমি সপ্তম ব্যাচে এনরোল করতে আগ্রহি হলে, ওয়েবসাইটে রেজিস্ট্রেশন করে রাখো </h5>
                         <div class="easy-checkout-modal"></div>
                         <button class="btn francy-btn btn-danger">Enroll Now</button>
                     </div>

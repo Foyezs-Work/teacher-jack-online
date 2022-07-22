@@ -331,10 +331,29 @@ ul li {
   /* background: linear-gradient(45deg, #5A00DD,#684EFB); */
 }
 
-.btn-danger {
-  color: #fff;
-  background-color: #e55353;
-  border-color: #e55353;
+.francy-btn {
+  background-color: #e55353!important;
+  border-color: #e55353!important;
+  border-radius: 40px!important;
+  position: relative;
+  white-space: nowrap;
+  padding: 15px 65px 15px 42px!important;
+}
+.francy-btn::after {
+  content: "";
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 42px;
+  width: 42px;
+  color: rgb(249, 79, 79);
+  display: block;
+  font-size: 1.4em;
+  padding-top: 6px;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
 }
 /*=============================== Package Info Close ========================*/
 
