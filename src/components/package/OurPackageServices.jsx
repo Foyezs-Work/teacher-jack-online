@@ -9,7 +9,7 @@ const OurPackageServices = () => {
     return (
         <section className="course-information-component">
             <div className="container h-100 py-md-3">
-                <div className="d-flex justify-content-center">
+                {/* <div className="d-flex justify-content-center">
                     <div className="course-information-heading-div text-center mb-3 mb-md-5 d-flex justify-content-center align-items-center">
                         <div className={courseProcess === "courseSpecialties" ? "course-information-title" : "text-center"} onClick={() => setCourseProcess("courseSpecialties")}>
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" className="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -17,12 +17,25 @@ const OurPackageServices = () => {
                             </svg>
                             <h5>Why Teach Online?</h5>
                         </div>
-                        {/* <div className={courseProcess === "courseDuration" ? "course-information-title" : "text-center"} onClick={() => setCourseProcess("courseDuration")}>
+                        <div className={courseProcess === "courseDuration" ? "course-information-title" : "text-center"} onClick={() => setCourseProcess("courseDuration")}>
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="pen-square" className="svg-inline--fa fa-pen-square fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                                 <path fill="currentColor" d="M400 480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zM238.1 177.9L102.4 313.6l-6.3 57.1c-.8 7.6 5.6 14.1 13.3 13.3l57.1-6.3L302.2 242c2.3-2.3 2.3-6.1 0-8.5L246.7 178c-2.5-2.4-6.3-2.4-8.6-.1zM345 165.1L314.9 135c-9.4-9.4-24.6-9.4-33.9 0l-23.1 23.1c-2.3 2.3-2.3 6.1 0 8.5l55.5 55.5c2.3 2.3 6.1 2.3 8.5 0L345 199c9.3-9.3 9.3-24.5 0-33.9z"></path>
                             </svg>
                             <h5> এই কোর্স কিভাবে চলবে?</h5>
-                        </div> */}
+                        </div>
+                    </div>
+                </div> */}
+
+                <div className="row justify-content-center">
+                    <div className="col-md-5">
+                        <div className="course-information-heading-div text-center mb-3 mb-md-5 d-flex justify-content-center align-items-center">
+                            <div className={courseProcess === "courseSpecialties" ? "course-information-title" : "text-center"} onClick={() => setCourseProcess("courseSpecialties")}>
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" className="svg-inline--fa fa-star fa-w-18 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                    <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                                </svg>
+                                <h5 style={{fontSize: "1.8rem", fontWeight: "700"}}>Why Teach Online?</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 {
