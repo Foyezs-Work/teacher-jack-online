@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { courseProcessingData } from '../../assets/datas/courseProcessingData';
 import ModalVideo from 'react-modal-video'
-import courseBanner from "../../assets/images/common/Purple Modern Online Course (Facebook Post).png"
+import courseBanner from "../../assets/images/common/courseBanner.png"
 const CourseModule = () => {
 
     const [isOpen, setOpen] = useState(false)
@@ -48,7 +48,7 @@ const CourseModule = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="timer text-center  my-3">A Complete Guide On How To Teach English To Chinese & Make $20++ / Hr</div>
+                            <div className="timer text-center  my-3">This $49 'infopack' is your ultimate guideline <br/> for your home-based tutoring</div>
                           
                         </div>
                     </div>

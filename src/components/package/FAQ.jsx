@@ -5,7 +5,7 @@ const FAQ = () => {
         <section className="frequently-asked-component " style={{}}>
             <div className="frequently-asked-main">
                 <div className="container">
-                    <h1 className="section-title text-center text-white pt-5  pb-md-1">কোর্স সম্পর্কিত সাধারণ জিজ্ঞাসা</h1>
+                    <h1 className="section-title fw-bold text-center text-white pt-5  pb-md-1">কোর্স সম্পর্কিত সাধারণ জিজ্ঞাসা</h1>
                     <div className="row align-items-center pt-4 py-md-5">
                         <div className="col-md-7">
                             <div className="frequently-asked-list-component">
