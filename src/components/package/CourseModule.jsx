@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { courseProcessingData } from '../../assets/datas/courseProcessingData';
 import ModalVideo from 'react-modal-video'
-
+import courseBanner from "../../assets/images/common/Purple Modern Online Course (Facebook Post).png"
 const CourseModule = () => {
 
     const [isOpen, setOpen] = useState(false)
@@ -13,7 +13,7 @@ const CourseModule = () => {
                     <div className="col-lg-5 mb-5">
                         <div className="enroll-card preview-card shadow p-3 p-md-4 p-lg-3 pb-md-5">
                             <div className="preview text-center">
-                                <img className="img-fluid w-100 lazy-image dark-theme-enroll-img" src="https://phero-web.nyc3.cdn.digitaloceanspaces.com/website-prod-images/public/files/1654421926132.png" alt="Complete Web Development Course With Jhankar Mahbub" style={{ paddingTop: '0px' }} />
+                                <img className="img-fluid w-100 lazy-image dark-theme-enroll-img" src={courseBanner} alt="Teacher Jack Online English Coruse" style={{ paddingTop: '0px' }} />
                                 <div className="play-icon">
                                     <div title onClick={()=> setOpen(true)} role="button" aria-label="animation" tabIndex={0} style={{ width: '100%', height: '100%', overflow: 'hidden', margin: '0px auto', outline: 'none' }}>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 92" width={92} height={92} preserveAspectRatio="xMidYMid slice" style={{ width: '100%', height: '100%', transform: 'translate3d(0px, 0px, 0px)' }}>
