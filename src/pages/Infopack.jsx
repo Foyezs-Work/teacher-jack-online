@@ -4,6 +4,7 @@ import FAQ from '../components/package/FAQ';
 import NextBatch from '../components/package/NextBatch';
 import OurPackageServices from '../components/package/OurPackageServices';
 import PackageBanner from '../components/package/PackageBanner';
+import StudentFeedback from '../components/package/StudentFeedback';
 import MainLayout from '../layouts/MainLayout';
 
 const Infopack = () => {
@@ -14,6 +15,7 @@ const Infopack = () => {
             <CourseModule/>
             <OurPackageServices/>
             <FAQ/>
+            <StudentFeedback/>
         </MainLayout>
     );
 };

@@ -649,7 +649,6 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   border-radius: 10px;
   margin: 10px 0px;
   transition: 0.5s ease;
-
 }
 
 .faq-item .faq_inner_content {
@@ -679,7 +678,7 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   margin-bottom: 5px;
   position: relative;
   cursor: pointer;
- border-bottom: 2px solid transparent;
+  border-bottom: 2px solid transparent;
   -webkit-transition: border 0.25s linear;
   transition: border 0.25s linear;
 }
@@ -792,6 +791,11 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   height: 2px;
 }
 /*=============================== FAQ Close ========================*/
+/*=============================== Student Feedback Start ========================*/
+.student_feedback__Seciton {
+  background: var(--color-wave-crest);
+}
+/*=============================== Student Feedback close ========================*/
 
 /*=========================== Footer Section Start ==========================*/
 #footer_section {
