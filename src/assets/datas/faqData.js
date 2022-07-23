@@ -1,23 +1,43 @@
 export const faqdata = [
     {
-        title: "What do you need to get started?",
-        description: "First of all, you need to register on our website. To do this, you must fill in the required fields in the registration form, as well as familiarize yourself with the site rules and confirm your consent.(If you agree with the rules of the site, you automatically agree to receive our newsletter and receive promotional materials. Also, you can always cancel or unsubscribe in the letter itself.)After confirming the mail, you will have access to your personal account in which it is easy to track the entire dynamics of investments, your referral program and the overall balance."
+        title: "What is so special about this course?",
+        description: "This is the ONLY course of its kind that you will find anywhere on the internet. For just $49, you are getting a complete guideline to be an online teacher. "
     },
     {
-        title: "How to pay for the investment package?",
-        description: "At the moment, we use bitcoin to pay and withdraw funds for investment packages. In the future, the number of payment systems will be increased."
+        title: "How much does it cost?",
+        description: "For a one-time payment of just $49, you will get a complete guideline and in a very short time you will be making money from the comfort of your home."
     },
     {
-        title: "Is there a limit to the maximum and the minimum investment package?",
-        description: "The minimum investment package costs - $ 10 and is valid for 30 days. The maximum investment package costs - $ 50,000 and is valid for 90 days. Attention! The number of packages is unlimited."
+        title: "I have never taught anyone in my life. Will I be able to do it?",
+        description: "Of course you will be able to once you are done going through the information packet that I have made for you. The ‘infopack’ contains all the information that you need to get started confidently. After going through the ‘infopack’, if you have any question or further guidance, I will be happy to set up a meeting with you and help you with your concerns."
     },
     {
-        title: "How to withdraw profit?",
-        description: "All functionality for the withdrawal of investment charges occurs through your personal account in the 'Order Payment' section. You must specify the wallet to which the profit should be received and the desired amount. This application will enter a pending status and then will be processed automatically. If the status of the application has changed to 'Canceled' all funds will be returned to the balance. Repeat the application and check the correctness of all data entered."
+        title: "I don't have a college degree. Will I be able to get in on it?",
+        description: "Let me put it this way – if you work in a call center and you receive a call from a customer, do the customer ask for your certificates or they state what the issue is and wants you to address the problem? There are some organizations that will require you have a college degree but there are scopes to teach by attaining other credentials. There are also ways to earn just by having general conversations in English. I have included the ‘how to’ in the ‘infopack’."
     },
     {
-        title: "After payment, the investment package did not appear in the personal account",
-        description: "Please note that the activation of the investment package occurs after the 4th confirmation of the Blockchain system.If, after confirmation, the package is not activated, in this case, please, check that the amount sent is correct, taking into account the commission. You can also clarify all the information on your account with our support specialists at [email protected]"
+        title: " I don't know the teaching techniques.",
+        description: "There is a first time for everything. There was a time when I didn’t know the teaching techniques either. To make the beginning easy for you, I have included this in the ‘infopack’ as well. "
+    },
+    {
+        title: "What do I need to teach online?",
+        description: "I have detailed what type of material you should choose for what type of students and how to choose material for students. Sometimes materials are provided by the organization and sometimes you need to provide. With years of experience I have accumulated tons of material and I have shared much of them in the ‘infopack’."
+    },
+    {
+        title: "Who do I teach?",
+        description: "Adults from any profession who are looking to improve English Speaking skill or listening skill or reading or writing skill. Children of all ages who need academic help. "
+    },
+    {
+        title: "I don't live in the US, how much is the course in my local currency?",
+        description: "The currency conversion will be done automatically by your local bank, card issuer, or PayPal (depending on your chosen payment method). "
+    },
+    {
+        title: "How long are the lessons?",
+        description: "Usually the lesson time is 30 minutes. Depending on the organization you are working with, class duration can be 25 minutes - 40 minutes."
+    },
+    {
+        title: "Do I need to know any other language to teach English to non-native English speakers?",
+        description: "Not at all. I do not know Chinese except for a few words. Yet I have students from nursery up to Associate Professors."
     },
 
 ]

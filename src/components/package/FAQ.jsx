@@ -11,13 +11,13 @@ const FAQ = () => {
                         <h1 className="section-title fw-bold text-center text-white pt-5  pb-md-1">Frequently Asked Questions
                         </h1>
                     </div>
-                    <div className="row py-5">
+                    <div className="row py-5 align-items-center">
                         <div className="col-md-7">
 
                             <div class="info">
                                 {
                                     typeof faqdata !== "undefined" && faqdata !== null && faqdata.length > 0 && faqdata.map((item, index) => (
-                                        <AskQuesToggleCard item={item} id={index} />
+                                        <AskQuesToggleCard item={item} id={index} key={index + 2000001} />
                                     ))
                                 }
 
