@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer id='footer_section'>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-3 col-sm-6">
                         <div className="header_logo">
