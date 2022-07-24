@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./assets/css/responsive.css"
-import "./assets/css/infopack.css"
 import "./assets/css/style.css"
 import './assets/css/style.scss';
 

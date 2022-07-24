@@ -80,6 +80,9 @@ ul li {
 /*=========================== Normailize CSS ==============================*/
 
 /*======================== Nav Section Start ==============================*/
+.mobile__navbar{
+  display: none;
+}
 #header-top {
   background: var(--color-wave-crest);
 }
@@ -133,6 +136,45 @@ ul li {
   font-size: 1.2rem;
   font-weight: 600;
 }
+.mobile_brand_name{
+  font-size: 1.2rem;
+}
+.toggle_bar{
+  background-color: var(--color-moscow-midnight);
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.toggle_bar i{
+  font-size: 25px;
+  color: var(--color-light-white);
+}
+
+.toggle_navbar_height{
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+.toggle_navbar_height.long_height{
+  height: 320px;
+  overflow: auto;
+}
+.mobile_navbar ul li{
+  display: block;
+  margin-top: 1rem;
+  font-weight: 700;
+  border-bottom: 2px solid transparent;
+}
+
+.mobile_navbar ul li:hover{
+ border-color: var(--color-moscow-midnight);
+}
+
 /*=========================  Nav Section Close ========================*/
 
 /*=============================== Home Section Start ========================*/
