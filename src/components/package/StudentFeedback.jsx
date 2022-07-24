@@ -1,6 +1,5 @@
 import React from 'react';
 import Slider from "react-slick";
-
 import ReactStars from "react-rating-stars-component";
 import { testimonialsData } from '../../assets/datas/testimonalsData';
 
