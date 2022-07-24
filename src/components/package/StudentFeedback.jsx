@@ -1,5 +1,8 @@
 import React from 'react';
 import Slider from "react-slick";
+import { studentFeedbackData } from '../../assets/datas/StudentFeedbackData';
+
+import ReactStars from "react-rating-stars-component";
 
 const StudentFeedback = () => {
     var settings = {
@@ -8,7 +11,7 @@ const StudentFeedback = () => {
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 2,
-        initialSlide: 0, 
+        initialSlide: 0,
         responsive: [
             {
                 breakpoint: 1024,
@@ -44,33 +47,31 @@ const StudentFeedback = () => {
 
                 <div className="slidder_inner">
                     <Slider {...settings}>
-                        <div>
-                            <h3>1</h3>
-                        </div>
-                        <div>
-                            <h3>2</h3>
-                        </div>
-                        <div>
-                            <h3>3</h3>
-                        </div>
-                        <div>
-                            <h3>4</h3>
-                        </div>
-                        <div>
-                            <h3>5</h3>
-                        </div>
-                        <div>
-                            <h3>6</h3>
-                        </div>
-                        <div>
-                            <h3>7</h3>
-                        </div>
-                        <div>
-                            <h3>8</h3>
-                        </div>
-                        <div>
-                            <h3>9</h3>
-                        </div>
+
+                        {
+                            studentFeedbackData.length > 0 && studentFeedbackData.map((feedback, index) => (
+                                <div className="user_feedback">
+                                    <div className="user_feedback_inner">
+                                        <div className="user_feedback_profile">
+                                            <div className="user_profile_img">
+                                                <img src={feedback.profile} alt={feedback.name} className="" />
+                                            </div>
+                                            <h5 className="user_feedback_profile_name fw-bold my-2">{feedback.name}</h5>
+                                            <ReactStars
+                                                count={feedback.rating}
+                                                size={28}
+                                                activeColor="#ff6b61"
+                                                color="#ff6b61"
+                                                edit={false}
+                                            />
+                                        </div>
+                                        <div className="user_feedback_details">
+                                            <p>{feedback.description}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))
+                        }
                     </Slider>
                 </div>
             </div>

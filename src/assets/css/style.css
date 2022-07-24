@@ -795,6 +795,69 @@ span.react-read-more-read-less.react-read-more-read-less-less {
 .student_feedback__Seciton {
   background: var(--color-wave-crest);
 }
+
+.user_feedback {
+  text-align: center;
+  padding: 10px;
+  margin-top: 2.5rem;
+  position: relative;
+}
+
+.user_feedback .user_feedback_inner {
+  background-color: var(--color-white);
+  padding: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  border-radius: 5px;
+}
+
+.user_feedback .user_feedback_inner .user_feedback_profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-60px);
+}
+
+.user_feedback .user_feedback_profile .user_profile_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  position: relative;
+  background-color: var(--color-white);
+
+}
+.user_feedback .user_feedback_inner .user_feedback_details{
+  margin-top: -2rem;
+}
+.user_feedback .user_feedback_inner .user_feedback_details p{
+  font-size: 14px;
+}
+.user_feedback .user_feedback_profile .user_profile_img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.slick-dots li button {
+  background: var(--color-moscow-midnight);
+  opacity: 0.75;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-dots li.slick-active button {
+  opacity: 1;
+}
+.slick-dots li button:before{
+ display: none;
+}
 /*=============================== Student Feedback close ========================*/
 
 /*=========================== Footer Section Start ==========================*/
