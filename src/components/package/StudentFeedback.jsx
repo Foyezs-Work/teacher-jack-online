@@ -1,8 +1,8 @@
 import React from 'react';
 import Slider from "react-slick";
-import { studentFeedbackData } from '../../assets/datas/StudentFeedbackData';
 
 import ReactStars from "react-rating-stars-component";
+import { testimonialsData } from '../../assets/datas/testimonalsData';
 
 const StudentFeedback = () => {
     var settings = {
@@ -49,16 +49,16 @@ const StudentFeedback = () => {
                     <Slider {...settings}>
 
                         {
-                            studentFeedbackData.length > 0 && studentFeedbackData.map((feedback, index) => (
+                            testimonialsData.length > 0 && testimonialsData.map((feedback, index) => (
                                 <div className="user_feedback">
                                     <div className="user_feedback_inner">
                                         <div className="user_feedback_profile">
                                             <div className="user_profile_img">
-                                                <img src={feedback.profile} alt={feedback.name} className="" />
+                                                <img src={feedback.img} alt={feedback.author} className="" />
                                             </div>
-                                            <h5 className="user_feedback_profile_name fw-bold my-2">{feedback.name}</h5>
+                                            <h5 className="user_feedback_profile_name fw-bold my-2">{feedback.author}</h5>
                                             <ReactStars
-                                                count={feedback.rating}
+                                                count={5}
                                                 size={28}
                                                 activeColor="#ff6b61"
                                                 color="#ff6b61"
