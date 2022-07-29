@@ -566,6 +566,10 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   font-size: 1.5rem !important;
 }
 
+.home_banner_content_title{
+  font-size: 3rem!important;
+  font-weight: 800;
+}
 .course-criteria-section h3 {
   color: var(--color-dark);
 }

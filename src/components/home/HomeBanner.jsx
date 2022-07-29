@@ -7,7 +7,7 @@ const HomeBanner = () => {
                 <div className="row align-items-center justify-content-between">
                     <div className="col-md-5">
                         <div className="content_inner">
-                            <h2 className='content_title'>Learn English The American Way</h2> <br />
+                            <h2 className='content_title home_banner_content_title'>Learn English The American Way</h2>
                             <p className="content_details">Take Lessons from Teacher Jack and Speak Like <br /> a Native English Speaker.</p>
                         </div>
                     </div>
