@@ -212,6 +212,7 @@ ul li {
   position: relative;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   border-radius: 5px;
+  height: 290px;
 }
 .content_inner_border {
   border: 5px solid;
@@ -221,13 +222,14 @@ ul li {
       rgba(255, 107, 97, 1)
     )
     1;
-  height: 275px;
+  height: 295px;
   width: 100%;
   border-radius: 5px;
   position: absolute;
   top: -15px;
   left: -15px;
 }
+
 /*============================== Home Section Close =============================*/
 
 /*=============================== Course Processing Section Start ========================*/
