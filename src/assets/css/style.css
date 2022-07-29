@@ -53,7 +53,7 @@ ul li {
   background-color: var(--color-light-salmon);
   border: 1px solid var(--color-light-salmon);
   color: var(--color-white);
-  padding: 0.5rem 1.5rem;
+  padding: 0.2rem 1.5rem;
   border-radius: 25px;
 }
 .default-btn-round a {
@@ -69,7 +69,6 @@ ul li {
 
 .content_details {
   font-size: 1rem;
-  opacity: 0.9;
 }
 
 .title {
@@ -124,11 +123,6 @@ ul li {
   font-weight: 800;
   margin-left: 1rem;
   color: var(--color-moscow-midnight);
-  /* font-family: pp-sans-big-regular,Helvetica Neue,Arial,sans-serif; */
-
-  /* font-family: Red Hat Text, Source Sans Pro, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
 }
 
 .header_menu {
@@ -137,7 +131,8 @@ ul li {
 
 .header_menu ul li {
   display: inline-block;
-  margin: 0.6rem;
+  /* margin: 0.6rem; */
+  margin: 1rem 0.6rem 0 0.6rem;
   font-size: 1.2rem;
   font-weight: 600;
 }

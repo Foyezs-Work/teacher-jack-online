@@ -7,7 +7,7 @@ const Header = () => {
     const [isFixed, setIsFixed] = useState(false);
 
     const scrollMenu = () => {
-        if (window.scrollY > 90) {
+        if (window.scrollY > 100) {
             setIsFixed(true)
         } else {
             setIsFixed(false)
