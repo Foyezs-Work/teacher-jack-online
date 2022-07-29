@@ -899,6 +899,10 @@ span.react-read-more-read-less.react-read-more-read-less-less {
 .user_feedback .user_feedback_inner .user_feedback_details {
   margin-top: -2rem;
 }
+.user_feedback .user_feedback_inner .user_feedback_thumbnails img{
+  width: 100%;
+  max-height: 400px;
+}
 .user_feedback .user_feedback_inner .user_feedback_details p {
   font-size: 14px;
 }

@@ -6,7 +6,7 @@ import { testimonialsData } from '../../assets/datas/testimonalsData';
 const StudentFeedback = () => {
     var settings = {
         dots: true,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 2,
@@ -51,22 +51,34 @@ const StudentFeedback = () => {
                             testimonialsData.length > 0 && testimonialsData.map((feedback, index) => (
                                 <div className="user_feedback">
                                     <div className="user_feedback_inner">
-                                        <div className="user_feedback_profile">
-                                            <div className="user_profile_img">
-                                                <img src={feedback.img} alt={feedback.author} className="" />
+                                        {
+                                            feedback.author !== "" && feedback.img !== "" &&
+                                            <div className="user_feedback_profile">
+                                                <div className="user_profile_img">
+                                                    <img src={feedback.img} alt={feedback.author} className="" />
+                                                </div>
+                                                <h5 className="user_feedback_profile_name fw-bold my-2">{feedback.author}</h5>
+                                                <ReactStars
+                                                    count={5}
+                                                    size={28}
+                                                    activeColor="#ff6b61"
+                                                    color="#ff6b61"
+                                                    edit={false}
+                                                />
                                             </div>
-                                            <h5 className="user_feedback_profile_name fw-bold my-2">{feedback.author}</h5>
-                                            <ReactStars
-                                                count={5}
-                                                size={28}
-                                                activeColor="#ff6b61"
-                                                color="#ff6b61"
-                                                edit={false}
-                                            />
-                                        </div>
-                                        <div className="user_feedback_details">
-                                            <p>{feedback.description}</p>
-                                        </div>
+                                        }
+
+                                        {
+                                            feedback.thumbnail !== "" ?
+                                                <div className="user_feedback_thumbnails">
+                                                    <img src={feedback.thumbnail} alt={`Testimonial ${feedback.id}`} className="img-thumbnail" />
+
+                                                </div> :
+                                                <div className="user_feedback_details">
+                                                    <p>{feedback.description}</p>
+                                                </div>
+                                        }
+
                                     </div>
                                 </div>
                             ))
