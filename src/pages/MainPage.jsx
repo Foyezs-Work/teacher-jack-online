@@ -11,7 +11,7 @@ const MainPage = () => {
         <MainLayout>
             <HomeBanner />
             <AboutTeacherJack />
-            <CourseProcessing />
+            <CourseProcessing /> <br />
             <Course />
             <Testimonials />
         </MainLayout>

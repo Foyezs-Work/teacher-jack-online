@@ -77,6 +77,34 @@ ul li {
   text-align: center;
   font-weight: 700;
 }
+
+
+
+/***********************************
+         Custom Scrollbar CSS
+************************************/
+
+::-webkit-scrollbar {
+  width: 5px;
+  cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--color-dark);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-moscow-midnight);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-moscow-midnight);
+}
+
+
 /*=========================== Normailize CSS ==============================*/
 
 /*======================== Nav Section Start ==============================*/
