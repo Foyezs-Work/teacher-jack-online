@@ -940,6 +940,41 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   display: block;
   margin-top: 1rem;
 }
+.footer_menulist ul li {
+  display: inline-block !important;
+}
+.footer_menulist ul {
+  margin-left: -1.5rem;
+}
+.footer_menulist ul li img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid var(--color-light-white);
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.footer_social ul li a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.footer_social ul li a > div{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-light-white);
+  transition: 0.6s ease;
+}
+.footer_social ul li a > div img{
+  width: 18px;
+  height: 18px;
+}
 .footer_copyright {
   font-size: 0.9rem;
   color: var(--color-light-white);
