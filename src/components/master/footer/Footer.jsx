@@ -71,7 +71,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-md-2 col-sm-6">
-                        <h5 className="footer_titel">Manta</h5>
+                        <h5 className="footer_titel">{}</h5>
                         <div className="">
                             <ul>
                                 <li>

@@ -20,7 +20,7 @@ const AboutTeacherJack = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-7">
+                        <div className="col-md-7 mt-3">
                             <div className="row justify-content-center">
                                 {
                                     classData.length > 0 && classData.map((item, index) => (

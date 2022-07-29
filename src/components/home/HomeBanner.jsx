@@ -11,7 +11,7 @@ const HomeBanner = () => {
                             <p className="content_details">Take Lessons from Teacher Jack and Speak Like <br /> a Native English Speaker.</p>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 mt-3">
                         <div className="content_inner">
                             <div className="content_inner_border"></div>
                             <img src={homeImg} alt="Home Banner" className='img-fluid' />
