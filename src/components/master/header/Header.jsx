@@ -7,7 +7,7 @@ const Header = () => {
     const [isFixed, setIsFixed] = useState(false);
 
     const scrollMenu = () => {
-        if (window.scrollY >= 90) {
+        if (window.scrollY > 90) {
             setIsFixed(true)
         } else {
             setIsFixed(false)
@@ -15,8 +15,6 @@ const Header = () => {
     }
 
     window.addEventListener("scroll", scrollMenu);
-
-
 
     return (
         <React.Fragment>

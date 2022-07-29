@@ -113,7 +113,7 @@ ul li {
   border-bottom: 1px solid var(--color-moscow-midnight);
   box-shadow: 0 0 50px 0 rgba(0, 161, 215, 0.263);
   background-color: var(--color-white);
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   z-index: 9999;
