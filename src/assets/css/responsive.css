@@ -47,6 +47,16 @@
   /* Home Page Close */
 
   /* Info Pack Page Start */
+  .notice .notice-title {
+    font-size: 1.8rem;
+  }
+  .slick-dots li button {
+    height: 7px;
+    width: 7px;
+  }
+  .slick-dots {
+    bottom: 0;
+  }
   /* Info Pack Page Close */
 }
 

@@ -176,6 +176,7 @@ ul li {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  margin-top: 10px;
 }
 .toggle_bar i {
   font-size: 25px;
@@ -372,7 +373,7 @@ ul li {
 
 .notice .notice-title {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 2.2rem;
   line-height: 58px;
 }
 .notice .notice-title,
