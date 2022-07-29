@@ -5,7 +5,7 @@ const CourseProcessing = () => {
         <section className='subscribe_section'>
             <h2 className='title'>How It Works</h2>
             <div className="container">
-                <div className="">
+                <div className="section_padding">
                     <div className="row">
 
                         <div className="col-md-6">

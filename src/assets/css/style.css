@@ -16,7 +16,8 @@ body {
   background-color: var(--color-white);
   color: var(--color-dark);
   /* text-transform: capitalize; */
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Open Sans";
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -101,6 +102,8 @@ ul li {
 
 #navigation {
   width: 100%;
+  font-weight: 400;
+  font-variant: normal;
 }
 .navbar {
   background-color: var(--color-white);
@@ -121,9 +124,11 @@ ul li {
   font-weight: 800;
   margin-left: 1rem;
   color: var(--color-moscow-midnight);
-  font-family: Red Hat Text, Source Sans Pro, -apple-system, BlinkMacSystemFont,
+  /* font-family: pp-sans-big-regular,Helvetica Neue,Arial,sans-serif; */
+
+  /* font-family: Red Hat Text, Source Sans Pro, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
 }
 
 .header_menu {
@@ -206,9 +211,8 @@ ul li {
 
 /*=============================== Course Processing Section Start ========================*/
 
-
 .subscribe_section {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/common/subscribe-bg.jpg) fixed center center;
   background-size: cover;
   padding: 40px 0;
@@ -239,7 +243,7 @@ ul li {
   align-items: center;
 }
 .course_card_left i {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--color-dark);
 }
 .course_card_right {
