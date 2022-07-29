@@ -50,15 +50,27 @@ const Testimonials = () => {
                             testimonialsData.length > 0 && testimonialsData.map((item, index) => (
                                 <div className='' key={index + 1}>
                                     <div className="card shadow-sm m-2">
-                                        <div className="testimonial_card_header">
-                                            <img src={item.img} alt={item.author} />
-                                            <h6 className='author_name'> {item.author} </h6>
-                                        </div>
-                                        <div className="testimonial_details">
-                                            <p>
-                                                {item.description}
-                                            </p>
-                                        </div>
+                                        {
+                                            item.author !== "" && item.img !== "" &&
+                                            <div className="testimonial_card_header">
+                                                <img src={item.img} alt={item.author} />
+                                                <h6 className='author_name'> {item.author} </h6>
+                                            </div>
+                                        }
+
+                                        {
+                                            item.thumbnail !== "" ?
+                                                <div className="testimonial_details">
+                                                    <img src={item.thumbnail} alt={`Testimonial ${item.id}`} className="img-thumbnail" style={{minHeight: "250px"}} />
+                                                </div> :
+
+                                                <div className="testimonial_details">
+                                                    <p>
+                                                        {item.description}
+                                                    </p>
+                                                </div>
+
+                                        }
                                     </div>
                                 </div>
                             ))

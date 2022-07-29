@@ -261,7 +261,10 @@ ul li {
   background: var(--color-wave-crest);
 }
 .testimonial_card_header {
-  background-color: var(--color-light-white);
+  /* background-color: var(--color-light-white); */
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -279,7 +282,6 @@ ul li {
 }
 .testimonial_details p {
   text-align: justify;
-  font-size: 14px;
 }
 /*=============================== Testimonial Close ========================*/
 /*=============================== Course Section Start ========================*/
