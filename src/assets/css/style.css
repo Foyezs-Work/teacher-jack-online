@@ -15,15 +15,12 @@ html,
 body {
   background-color: var(--color-white);
   color: var(--color-dark);
-  /* text-transform: capitalize; */
-  /* font-family: "Poppins", sans-serif; */
   font-family: "Open Sans";
   margin: 0;
   padding: 0;
   font-size: 16px;
   scroll-behavior: smooth;
   position: relative;
-  /* font-family: Red Hat Text,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; */
 }
 
 a {
@@ -929,7 +926,7 @@ span.react-read-more-read-less.react-read-more-read-less-less {
 }
 .user_feedback .user_feedback_inner .user_feedback_thumbnails img{
   width: 100%;
-  max-height: 400px;
+  max-height: 370px;
 }
 .user_feedback .user_feedback_inner .user_feedback_details p {
   font-size: 14px;
