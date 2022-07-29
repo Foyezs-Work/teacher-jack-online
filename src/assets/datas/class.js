@@ -29,4 +29,28 @@ export const classData = [
         thumbnail: "http://teacherjackonline.com/images/1_video.jpg",
         videoLink: "https://www.youtube.com/watch?v=Jf0X-uHVsQs"
     },
+    {
+        id: "class200005",
+        title: "",
+        thumbnail: "http://teacherjackonline.com/images/1_video.jpg",
+        videoLink: "https://www.youtube.com/watch?v=Jf0X-uHVsQs"
+    },
+    {
+        id: "class200005",
+        title: "",
+        thumbnail: "http://teacherjackonline.com/images/1_video.jpg",
+        videoLink: "https://www.youtube.com/watch?v=Jf0X-uHVsQs"
+    },
+    {
+        id: "class200005",
+        title: "",
+        thumbnail: "http://teacherjackonline.com/images/1_video.jpg",
+        videoLink: "https://www.youtube.com/watch?v=Jf0X-uHVsQs"
+    },
+    {
+        id: "class200005",
+        title: "",
+        thumbnail: "http://teacherjackonline.com/images/1_video.jpg",
+        videoLink: "https://www.youtube.com/watch?v=Jf0X-uHVsQs"
+    },
 ]

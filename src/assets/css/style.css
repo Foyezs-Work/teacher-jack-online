@@ -80,7 +80,7 @@ ul li {
 /*=========================== Normailize CSS ==============================*/
 
 /*======================== Nav Section Start ==============================*/
-.mobile__navbar{
+.mobile__navbar {
   display: none;
 }
 #header-top {
@@ -136,10 +136,10 @@ ul li {
   font-size: 1.2rem;
   font-weight: 600;
 }
-.mobile_brand_name{
+.mobile_brand_name {
   font-size: 1.2rem;
 }
-.toggle_bar{
+.toggle_bar {
   background-color: var(--color-moscow-midnight);
   height: 35px;
   width: 35px;
@@ -149,30 +149,30 @@ ul li {
   align-items: center;
   border-radius: 5px;
 }
-.toggle_bar i{
+.toggle_bar i {
   font-size: 25px;
   color: var(--color-light-white);
 }
 
-.toggle_navbar_height{
+.toggle_navbar_height {
   height: 60px;
   position: relative;
   overflow: hidden;
   transition: 0.5s ease;
 }
-.toggle_navbar_height.long_height{
+.toggle_navbar_height.long_height {
   height: 320px;
   overflow: auto;
 }
-.mobile_navbar ul li{
+.mobile_navbar ul li {
   display: block;
   margin-top: 1rem;
   font-weight: 700;
   border-bottom: 2px solid transparent;
 }
 
-.mobile_navbar ul li:hover{
- border-color: var(--color-moscow-midnight);
+.mobile_navbar ul li:hover {
+  border-color: var(--color-moscow-midnight);
 }
 
 /*=========================  Nav Section Close ========================*/
@@ -205,20 +205,34 @@ ul li {
 /*============================== Home Section Close =============================*/
 
 /*=============================== Course Processing Section Start ========================*/
+
+
+.subscribe_section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(../images/common/subscribe-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 40px 0;
+  color: var(--color-white);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .content_inner_box {
   margin-top: 2rem;
-  transition: 0.5s ease all;
+  transition: 1s ease;
   padding: 1rem;
   border-radius: 5px;
   cursor: pointer;
 }
 .content_inner_box:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  background: var(--color-light-salmon);
+  transform: translateY(-10px);
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; */
 }
 .course_card_left {
   background-color: var(--color-wave-crest);
-  height: 130px;
-  width: 130px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -226,6 +240,7 @@ ul li {
 }
 .course_card_left i {
   font-size: 3rem;
+  color: var(--color-dark);
 }
 .course_card_right {
   margin-left: 1rem;
@@ -290,6 +305,7 @@ ul li {
   margin: 10px 0px;
   cursor: pointer;
 }
+
 /*=============================== Course Section Close ========================*/
 /*=============================== Package Info Start ========================*/
 .pack_banner_container {
@@ -870,12 +886,11 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   z-index: 9999;
   position: relative;
   background-color: var(--color-white);
-
 }
-.user_feedback .user_feedback_inner .user_feedback_details{
+.user_feedback .user_feedback_inner .user_feedback_details {
   margin-top: -2rem;
 }
-.user_feedback .user_feedback_inner .user_feedback_details p{
+.user_feedback .user_feedback_inner .user_feedback_details p {
   font-size: 14px;
 }
 .user_feedback .user_feedback_profile .user_profile_img img {
@@ -897,8 +912,8 @@ span.react-read-more-read-less.react-read-more-read-less-less {
 .slick-dots li.slick-active button {
   opacity: 1;
 }
-.slick-dots li button:before{
- display: none;
+.slick-dots li button:before {
+  display: none;
 }
 /*=============================== Student Feedback close ========================*/
 

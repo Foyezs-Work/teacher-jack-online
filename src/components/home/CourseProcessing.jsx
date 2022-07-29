@@ -2,10 +2,10 @@ import React from 'react';
 
 const CourseProcessing = () => {
     return (
-        <section className='section_padding'>
+        <section className='subscribe_section'>
             <h2 className='title'>How It Works</h2>
             <div className="container">
-                <div className="section_padding">
+                <div className="">
                     <div className="row">
 
                         <div className="col-md-6">
@@ -54,7 +54,7 @@ const CourseProcessing = () => {
                                     </div>
                                     <div className="col-9">
                                         <div className='course_card_right'>
-                                            <h3 className='course_card_title'>Make payment using the payment link provide by teacher jack</h3>
+                                            <h3 className='course_card_title'>Make payment </h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum doloribus et nesciunt iusto aliquam iure perferendis molestiae.</p>
                                         </div>
                                     </div>
