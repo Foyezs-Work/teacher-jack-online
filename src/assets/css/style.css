@@ -311,6 +311,9 @@ ul li {
   margin: 10px 0px;
   cursor: pointer;
 }
+.course_list li img{
+  height: 25px;
+}
 
 /*=============================== Course Section Close ========================*/
 /*=============================== Package Info Start ========================*/

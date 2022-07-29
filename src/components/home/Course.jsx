@@ -1,4 +1,8 @@
 import React from 'react';
+import english1 from "../../assets/images/course_icon/english_for_adult.png"
+import english2 from "../../assets/images/course_icon/english_for_kids.png"
+import business from "../../assets/images/course_icon/business_certificate.png"
+import ielts from "../../assets/images/course_icon/ielts.webp"
 
 const Course = () => {
     return (
@@ -13,19 +17,24 @@ const Course = () => {
                                 <div className="card-body">
                                     <ul className='course_list'>
                                         <li>
-                                            <i className="fa-solid fa-bookmark"></i>
+                                            {/* <i class="fa-solid fa-person-chalkboard"></i> */}
+                                            <img src={english2} alt="English Communication Development for Kids" />
+
                                             <span className="ms-2"> English Communication Development for Kids</span>
                                         </li>
                                         <li>
-                                            <i className="fa-solid fa-bookmark"></i>
-                                            <span className="ms-2">   English Communication Development for Adults </span>
+                                            {/* <i class="fa-solid fa-person-chalkboard"></i> */}
+                                            <img src={english1} alt="English Communication Development for Adults" />
+                                            <span className="ms-2"> English Communication Development for Adults </span>
                                         </li>
                                         <li>
-                                            <i className="fa-solid fa-bookmark"></i>
+                                            {/* <i class="fa-solid fa-person-chalkboard"></i> */}
+                                            <img src={business} alt="Business English Certificate (BEC) Preparation" />
                                             <span className="ms-2"> Business English Certificate (BEC) Preparation </span>
                                         </li>
                                         <li>
-                                            <i className="fa-solid fa-bookmark"></i>
+                                            {/* <i class="fa-solid fa-person-chalkboard"></i> */}
+                                            <img src={ielts} alt=" IELTS Preparation" />
                                             <span className="ms-2">  IELTS Preparation </span>
                                         </li>
                                     </ul>
