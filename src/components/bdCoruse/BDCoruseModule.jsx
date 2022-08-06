@@ -1,10 +1,20 @@
 import React, { useState } from 'react';
-import { courseProcessingData } from '../../assets/datas/courseProcessingData';
 import ModalVideo from 'react-modal-video'
 import courseBanner from "../../assets/images/common/courseBanner.png"
+import videoItem from "./../../assets/videos/TeacherJack Promo Video Final.mp4"
+import Modal from 'react-bootstrap/Modal';
+
 const BDCoruseModule = () => {
 
     const [isOpen, setOpen] = useState(false)
+
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+
     return (
         <div className="course-criteria-section mb-5 mt-5" style={{}}>
             <div className="container">
@@ -87,37 +97,27 @@ const BDCoruseModule = () => {
                                     <h6>Coruse Content</h6>
                                     <h6>Coruse Content</h6>
                                     <h6>Coruse Content</h6>
-                                    
+
                                     <h6>Coruse Content</h6>
                                     <h6>Coruse Content</h6>
                                     <h6>Coruse Content</h6>
                                 </div>
                             </div>
                         </div>
-
-                        {/* <div className="course-criterias">
-                            <div className="mb-4">
-                                <ul className="list-unstyled w-100 row">
-                                    {
-                                        courseProcessingData.length > 0 && courseProcessingData.map((module, index) => (
-                                            <li className="col-md-6">
-                                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-square" className="svg-inline--fa fa-check-square fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                                    <path fill="currentColor" d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z" />
-                                                </svg>
-                                                <span>{module.details}</span>
-                                            </li>
-                                        ))
-                                    }
-
-                                </ul>
-                            </div>
-
-                        </div> */}
                     </div>
                 </div>
             </div>
 
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
+            {/* <ModalVideo channel='' autoplay isOpen={isOpen} videoId={videoItem} onClose={() => setOpen(false)} /> */}
+
+            <Modal show={isOpen} onHide={handleClose} animation={true} size="lg"
+                aria-labelledby="contained-modal-title-vcenter" centered>
+                <Modal.Header closeButton>
+                    <Modal.Title>Modal heading</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+
+            </Modal>
         </div>
     );
 };

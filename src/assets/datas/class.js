@@ -59,7 +59,7 @@ export const classData = [
         id: "class200009",
         title: "",
         thumbnail: "http://teacherjackonline.com/images/1_video.jpg",
-        videoLink: "https://www.youtube.com/watch?v=Jf0X-uHVsQs",
-        videoID: "Jf0X-uHVsQs"
+        videoLink: "https://www.youtube.com/watch?v=UlaAYWKwTjw",
+        videoID: "UlaAYWKwTjw"
     },
 ]
