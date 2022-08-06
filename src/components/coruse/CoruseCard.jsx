@@ -4,6 +4,13 @@ import ModalVideo from 'react-modal-video';
 const CoruseCard = ({ item }) => {
 
     const [isOpen, setOpen] = useState(false)
+    const [videoID, setVideoID] = useState("Hw79GlNHMZg");
+
+    const handlePlayVideo = (selectedItem) => {
+        setOpen(true);
+        setVideoID(selectedItem.videoID)
+
+    }
 
     return (
         <React.Fragment>
@@ -12,7 +19,7 @@ const CoruseCard = ({ item }) => {
                     <div className="preview text-center">
                         <img className="img-fluid w-100 lazy-image dark-theme-enroll-img" src={item.thumbnail} alt="Teacher Jack Online English Coruse" style={{ paddingTop: '0px' }} />
                         <div className="play-icon">
-                            <div title onClick={() => setOpen(true)} role="button" aria-label="animation" tabIndex={0} style={{ width: '100%', height: '100%', overflow: 'hidden', margin: '0px auto', outline: 'none' }}>
+                            <div title onClick={() => handlePlayVideo(item)} role="button" aria-label="animation" tabIndex={0} style={{ width: '100%', height: '100%', overflow: 'hidden', margin: '0px auto', outline: 'none' }}>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 92" width={92} height={92} preserveAspectRatio="xMidYMid slice" style={{ width: '100%', height: '100%', transform: 'translate3d(0px, 0px, 0px)' }}>
                                     <defs>
                                         <clipPath id="__lottie_element_2">
@@ -48,7 +55,7 @@ const CoruseCard = ({ item }) => {
 
                 </div>
             </div>
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId={videoID} onClose={() => setOpen(false)} />
 
         </React.Fragment>
     );

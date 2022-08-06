@@ -9,6 +9,7 @@ const Tutorials = () => {
     return (
         <MainLayout>
             <div className="container">
+                <h2 className='title'>Course</h2>
                 <div className="row justify-content-center">
                     {
                         classData.length > 0 && classData.map((item, index) => (
