@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { classData } from '../../assets/datas/class';
 
 const AboutTeacherJack = () => {
@@ -33,6 +34,12 @@ const AboutTeacherJack = () => {
                                         </div>
                                     ))
                                 }
+                            </div>
+
+                            <div className="text-end">
+                                <button className="btn default-btn-round">
+                                    <Link to="/courses">More <i class="fa-solid fa-angles-right"></i> </Link>
+                                </button>
                             </div>
                         </div>
                     </div>

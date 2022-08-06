@@ -48,7 +48,6 @@ ul li {
 }
 .default-btn-round {
   background-color: var(--color-light-salmon);
-  border: 1px solid var(--color-light-salmon);
   color: var(--color-white);
   padding: 0.2rem 1.5rem;
   border-radius: 25px;
