@@ -74,8 +74,6 @@ ul li {
   font-weight: 700;
 }
 
-
-
 /***********************************
          Custom Scrollbar CSS
 ************************************/
@@ -99,7 +97,6 @@ ul li {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-moscow-midnight);
 }
-
 
 /*=========================== Normailize CSS ==============================*/
 
@@ -333,7 +330,7 @@ ul li {
   margin: 10px 0px;
   cursor: pointer;
 }
-.course_list li img{
+.course_list li img {
   height: 25px;
 }
 
@@ -565,8 +562,8 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   font-size: 1.5rem !important;
 }
 
-.home_banner_content_title{
-  font-size: 3rem!important;
+.home_banner_content_title {
+  font-size: 3rem !important;
   font-weight: 800;
 }
 .course-criteria-section h3 {
@@ -925,7 +922,7 @@ span.react-read-more-read-less.react-read-more-read-less-less {
 .user_feedback .user_feedback_inner .user_feedback_details {
   margin-top: -2rem;
 }
-.user_feedback .user_feedback_inner .user_feedback_thumbnails img{
+.user_feedback .user_feedback_inner .user_feedback_thumbnails img {
   width: 100%;
   max-height: 370px;
 }
@@ -953,6 +950,17 @@ span.react-read-more-read-less.react-read-more-read-less-less {
 }
 .slick-dots li button:before {
   display: none;
+}
+
+.bd_coruse_banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./../images/common/english.jpg) fixed center center;
+  background-size: cover;
+  padding: 150px 0;
+  color: var(--color-white);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 /*=============================== Student Feedback close ========================*/
 
@@ -995,7 +1003,7 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   align-items: center;
   font-size: 14px;
 }
-.footer_social ul li a > div{
+.footer_social ul li a > div {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -1006,7 +1014,7 @@ span.react-read-more-read-less.react-read-more-read-less-less {
   background: var(--color-light-white);
   transition: 0.6s ease;
 }
-.footer_social ul li a > div img{
+.footer_social ul li a > div img {
   width: 18px;
   height: 18px;
 }
