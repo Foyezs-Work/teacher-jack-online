@@ -9,7 +9,6 @@ import img3 from "../images/testimonials/IMG-2007.jpg";
 import img4 from "../images/testimonials/QQ Screenshot.jpg";
 import img5 from "../images/testimonials/Bnbing screenshot.jpg";
 import img6 from "../images/testimonials/Bnbing screenshot 2.jpg";
-import img7 from "../images/testimonials/ClassIn Screenshot_1.jpg";
 import img8 from "../images/testimonials/Micro Language Screenshot-3.jpg";
 import img9 from "../images/testimonials/Schedule Spelling.jpg";
 import img10 from "../images/testimonials/Teaching Schedule Dec 2.jpg";
@@ -96,13 +95,7 @@ export const testimonialsData = [
         description: "",
         thumbnail: img6
     },
-    {
-        id: "testimonial20000012",
-        author: "",
-        img: "",
-        description: "",
-        thumbnail: img7
-    },
+  
     {
         id: "testimonial20000013",
         author: "",

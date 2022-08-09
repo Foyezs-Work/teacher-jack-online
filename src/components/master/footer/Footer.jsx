@@ -16,7 +16,7 @@ const Footer = () => {
         <footer id='footer_section'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-3 col-sm-6">
+                    <div className="col-md-4 col-sm-6">
                         <div className="header_logo">
                             <Link to="/index">
                                 Teacher Jack
@@ -81,7 +81,7 @@ const Footer = () => {
                                     <Link to="/">About</Link>
                                 </li>
                                 <li>
-                                    <Link to="/">Coruses</Link>
+                                    <Link to="/">Courses</Link>
                                 </li>
                                 <li>
                                     <Link to="/">How It Works</Link>
@@ -92,7 +92,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-5 col-sm-6">
+                    <div className="col-md-3 col-sm-6">
                         <h5 className="footer_titel">Affiliation</h5>
 
                         <div className="footer_menulist">
@@ -110,7 +110,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-2 col-sm-6">
+                    <div className="col-md-3 col-sm-6">
                         <h5 className="footer_titel">Resources</h5>
                         <div className="">
                             <ul>
@@ -122,7 +122,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <p className="footer_copyright text-center">
-                    &copy; {new Date().getFullYear()} TeacherJack.Online | All Rights Reserved
+                    &copy; 2021 - {new Date().getFullYear()} www.teacherjackonline.com || All Rights Reserved
                 </p>
             </div>
         </footer>

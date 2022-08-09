@@ -69,7 +69,7 @@ const Testimonials = () => {
                                         {
                                             item.thumbnail !== "" ?
                                                 <div className="testimonial_details">
-                                                    <img src={item.thumbnail} alt={`Testimonial ${item.id}`} className="img-thumbnail" style={{minHeight: "250px"}} />
+                                                    <img src={item.thumbnail} alt={`Testimonial ${item.id}`} className="img-thumbnail" />
                                                 </div> :
 
                                                 <div className="testimonial_details">
