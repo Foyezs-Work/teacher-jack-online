@@ -18,7 +18,6 @@ const BDCoruseModule = () => {
     return (
         <div className="course-criteria-section mb-5 mt-5" style={{}}>
             <div className="container">
-                <h3 className="section-title text-center fw-bold mt-5 mt-md-0 mb-5">Coruse Title</h3>
                 <div className="row">
                     <div className="col-lg-5 mb-5">
                         <div className="enroll-card preview-card shadow p-3 p-md-4 p-lg-3 pb-md-5">
