@@ -1,15 +1,19 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { classData } from '../assets/datas/class';
 import CoruseCard from '../components/coruse/CoruseCard';
 import MainLayout from '../layouts/MainLayout';
 
 const Tutorials = () => {
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+
     return (
         <MainLayout>
             <div className="container">
-                <h2 className='title'>Course</h2>
                 <div className="row justify-content-center">
                     {
                         classData.length > 0 && classData.map((item, index) => (

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import CourseModule from '../components/package/CourseModule';
 import FAQ from '../components/package/FAQ';
 import NextBatch from '../components/package/NextBatch';
@@ -8,6 +8,11 @@ import StudentFeedback from '../components/package/StudentFeedback';
 import MainLayout from '../layouts/MainLayout';
 
 const Infopack = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <MainLayout title="Package">
             <PackageBanner />

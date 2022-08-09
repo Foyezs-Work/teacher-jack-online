@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import AboutTeacherJack from '../components/home/AboutTeacherJack';
 import Course from '../components/home/Course';
 import CourseProcessing from '../components/home/CourseProcessing';
@@ -7,6 +7,11 @@ import Testimonials from '../components/home/Testimonials';
 import MainLayout from '../layouts/MainLayout';
 
 const MainPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <MainLayout>
             <HomeBanner />
